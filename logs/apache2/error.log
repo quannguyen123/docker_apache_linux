@@ -1,0 +1,36 @@
+[Sun Feb 18 15:28:41.260611 2024] [mpm_event:notice] [pid 24:tid 139740032781248] AH00489: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1 configured -- resuming normal operations
+[Sun Feb 18 15:28:41.260880 2024] [core:notice] [pid 24:tid 139740032781248] AH00094: Command line: 'apache2 -D FOREGROUND -D APACHE_LOCK_DIR'
+[Sun Feb 18 16:02:02.068671 2024] [mpm_event:notice] [pid 24:tid 139740032781248] AH00491: caught SIGTERM, shutting down
+[Sun Feb 18 16:48:35.744015 2024] [mpm_event:notice] [pid 26:tid 139975040986048] AH00489: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1 configured -- resuming normal operations
+[Sun Feb 18 16:48:35.747123 2024] [core:notice] [pid 26:tid 139975040986048] AH00094: Command line: 'apache2 -D FOREGROUND -D APACHE_LOCK_DIR'
+[Sun Feb 18 17:10:25.909320 2024] [mpm_event:notice] [pid 26:tid 139975040986048] AH00491: caught SIGTERM, shutting down
+[Sun Feb 18 17:10:54.387946 2024] [mpm_event:notice] [pid 24:tid 140614167858112] AH00489: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1 configured -- resuming normal operations
+[Sun Feb 18 17:10:54.389808 2024] [core:notice] [pid 24:tid 140614167858112] AH00094: Command line: 'apache2 -D FOREGROUND -D APACHE_LOCK_DIR'
+[Sun Feb 18 23:24:14.654363 2024] [mpm_event:notice] [pid 26:tid 140315839482816] AH00489: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1 configured -- resuming normal operations
+[Sun Feb 18 23:24:14.654599 2024] [core:notice] [pid 26:tid 140315839482816] AH00094: Command line: 'apache2 -D FOREGROUND -D APACHE_LOCK_DIR'
+[Sun Feb 18 23:28:32.628631 2024] [mpm_event:notice] [pid 26:tid 140315839482816] AH00491: caught SIGTERM, shutting down
+[Sun Feb 18 23:46:59.254955 2024] [mpm_event:notice] [pid 24:tid 140550452947904] AH00489: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1 configured -- resuming normal operations
+[Sun Feb 18 23:46:59.255184 2024] [core:notice] [pid 24:tid 140550452947904] AH00094: Command line: 'apache2 -D FOREGROUND -D APACHE_LOCK_DIR'
+[Sun Feb 18 23:59:01.395000 2024] [mpm_event:notice] [pid 24:tid 140550452947904] AH00491: caught SIGTERM, shutting down
+[Sun Feb 18 23:59:24.674490 2024] [mpm_event:notice] [pid 24:tid 140152614214592] AH00489: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1 configured -- resuming normal operations
+[Sun Feb 18 23:59:24.674801 2024] [core:notice] [pid 24:tid 140152614214592] AH00094: Command line: 'apache2 -D FOREGROUND -D APACHE_LOCK_DIR'
+[Mon Feb 19 00:01:20.116445 2024] [mpm_event:notice] [pid 24:tid 140152614214592] AH00491: caught SIGTERM, shutting down
+[Mon Feb 19 00:01:42.315970 2024] [mpm_event:notice] [pid 24:tid 140488056716224] AH00489: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1 configured -- resuming normal operations
+[Mon Feb 19 00:01:42.316250 2024] [core:notice] [pid 24:tid 140488056716224] AH00094: Command line: 'apache2 -D FOREGROUND -D APACHE_LOCK_DIR'
+[Mon Feb 19 00:04:22.406487 2024] [mpm_event:notice] [pid 24:tid 140488056716224] AH00491: caught SIGTERM, shutting down
+[Mon Feb 19 00:04:43.263152 2024] [mpm_event:notice] [pid 24:tid 139751808031680] AH00489: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1 configured -- resuming normal operations
+[Mon Feb 19 00:04:43.263386 2024] [core:notice] [pid 24:tid 139751808031680] AH00094: Command line: 'apache2 -D FOREGROUND -D APACHE_LOCK_DIR'
+[Mon Feb 19 00:08:19.929518 2024] [mpm_event:notice] [pid 24:tid 139751808031680] AH00491: caught SIGTERM, shutting down
+[Mon Feb 19 00:08:42.167458 2024] [mpm_event:notice] [pid 24:tid 139771690646464] AH00489: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1 configured -- resuming normal operations
+[Mon Feb 19 00:08:42.167649 2024] [core:notice] [pid 24:tid 139771690646464] AH00094: Command line: 'apache2 -D FOREGROUND -D APACHE_LOCK_DIR'
+[Mon Feb 19 00:10:14.766981 2024] [mpm_event:notice] [pid 24:tid 139771690646464] AH00491: caught SIGTERM, shutting down
+[Mon Feb 19 00:11:14.054532 2024] [mpm_event:notice] [pid 23:tid 139892890594240] AH00489: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1 configured -- resuming normal operations
+[Mon Feb 19 00:11:14.054857 2024] [core:notice] [pid 23:tid 139892890594240] AH00094: Command line: 'apache2 -D FOREGROUND -D APACHE_LOCK_DIR'
+[Mon Feb 19 00:12:11.711507 2024] [mpm_event:notice] [pid 23:tid 139892890594240] AH00491: caught SIGTERM, shutting down
+[Mon Feb 19 00:13:04.006408 2024] [mpm_event:notice] [pid 24:tid 139852250938304] AH00489: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1 configured -- resuming normal operations
+[Mon Feb 19 00:13:04.006623 2024] [core:notice] [pid 24:tid 139852250938304] AH00094: Command line: 'apache2 -D FOREGROUND -D APACHE_LOCK_DIR'
+[Mon Feb 19 00:15:58.293485 2024] [mpm_event:notice] [pid 24:tid 139945992575936] AH00489: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1 configured -- resuming normal operations
+[Mon Feb 19 00:15:58.295451 2024] [core:notice] [pid 24:tid 139945992575936] AH00094: Command line: 'apache2 -D FOREGROUND -D APACHE_LOCK_DIR'
+[Mon Feb 19 00:16:11.912328 2024] [mpm_event:notice] [pid 24:tid 139945992575936] AH00491: caught SIGTERM, shutting down
+[Mon Feb 19 00:36:42.584957 2024] [mpm_event:notice] [pid 24:tid 140578870246336] AH00489: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1 configured -- resuming normal operations
+[Mon Feb 19 00:36:42.585184 2024] [core:notice] [pid 24:tid 140578870246336] AH00094: Command line: 'apache2 -D FOREGROUND -D APACHE_LOCK_DIR'

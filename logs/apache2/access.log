@@ -1,0 +1,136 @@
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:15:39:00 +0000] "GET / HTTP/1.1" 200 1694 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:15:39:00 +0000] "GET / HTTP/1.1" 200 bytesIn:653 bytesOut:1694 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:15:39:00 +0000] "GET /icons/blank.gif HTTP/1.1" 200 431 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:15:39:00 +0000] "GET /icons/blank.gif HTTP/1.1" 200 bytesIn:579 bytesOut:431 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:15:39:00 +0000] "GET /icons/compressed.gif HTTP/1.1" 200 1324 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:15:39:00 +0000] "GET /icons/compressed.gif HTTP/1.1" 200 bytesIn:583 bytesOut:1324 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:15:39:00 +0000] "GET /icons/binary.gif HTTP/1.1" 200 529 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:15:39:00 +0000] "GET /icons/folder.gif HTTP/1.1" 200 508 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:15:39:00 +0000] "GET /icons/binary.gif HTTP/1.1" 200 bytesIn:580 bytesOut:529 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:15:39:00 +0000] "GET /icons/unknown.gif HTTP/1.1" 200 529 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:15:39:00 +0000] "GET /icons/folder.gif HTTP/1.1" 200 bytesIn:580 bytesOut:508 reqTime:0
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:15:39:00 +0000] "GET /icons/unknown.gif HTTP/1.1" 200 bytesIn:580 bytesOut:529 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:15:39:01 +0000] "GET /favicon.ico HTTP/1.1" 404 228 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:15:39:01 +0000] "GET /favicon.ico HTTP/1.1" 404 bytesIn:575 bytesOut:228 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:15:40:14 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.18.0.1 - - [18/Feb/2024:15:40:14 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:15:42:57 +0000] "GET / HTTP/1.1" 200 1694 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:15:42:57 +0000] "GET / HTTP/1.1" 200 bytesIn:790 bytesOut:1694 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:15:43:50 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.18.0.1 - - [18/Feb/2024:15:43:50 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:00:24 +0000] "GET /Beberia/ HTTP/1.1" 200 801 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:16:00:24 +0000] "GET /Beberia/ HTTP/1.1" 200 bytesIn:833 bytesOut:801 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:00:24 +0000] "GET /icons/back.gif HTTP/1.1" 200 499 "http://localhost/Beberia/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:16:00:24 +0000] "GET /icons/back.gif HTTP/1.1" 200 bytesIn:723 bytesOut:499 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:00:24 +0000] "GET /icons/image2.gif HTTP/1.1" 200 593 "http://localhost/Beberia/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:16:00:24 +0000] "GET /icons/image2.gif HTTP/1.1" 200 bytesIn:725 bytesOut:593 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:00:24 +0000] "GET /Beberia/bebegateway/ HTTP/1.1" 200 1184 "http://localhost/Beberia/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:16:00:24 +0000] "GET /Beberia/bebegateway/ HTTP/1.1" 200 bytesIn:854 bytesOut:1184 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:00:25 +0000] "GET /icons/text.gif HTTP/1.1" 200 512 "http://localhost/Beberia/bebegateway/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:16:00:25 +0000] "GET /icons/text.gif HTTP/1.1" 200 bytesIn:735 bytesOut:512 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:00:35 +0000] "GET /karaoke/ HTTP/1.1" 200 1018 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:16:00:35 +0000] "GET /karaoke/ HTTP/1.1" 200 bytesIn:833 bytesOut:1018 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:00:44 +0000] "GET /php-laravel/ HTTP/1.1" 200 1081 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:16:00:44 +0000] "GET /php-laravel/ HTTP/1.1" 200 bytesIn:837 bytesOut:1081 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:00:47 +0000] "GET /php-laravel/public/ HTTP/1.1" 500 211 "http://localhost/php-laravel/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:16:00:47 +0000] "GET /php-laravel/public/ HTTP/1.1" 500 bytesIn:857 bytesOut:211 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:00:59 +0000] "GET /php-laravel/public/ HTTP/1.1" 500 211 "http://localhost/php-laravel/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:16:00:59 +0000] "GET /php-laravel/public/ HTTP/1.1" 500 bytesIn:856 bytesOut:211 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:01:42 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.18.0.1 - - [18/Feb/2024:16:01:42 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:01:54 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.18.0.1 - - [18/Feb/2024:16:01:54 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:48:47 +0000] "GET / HTTP/1.1" 200 933 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:16:48:47 +0000] "GET / HTTP/1.1" 200 bytesIn:704 bytesOut:933 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:48:47 +0000] "GET /favicon.ico HTTP/1.1" 404 228 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:16:48:47 +0000] "GET /favicon.ico HTTP/1.1" 404 bytesIn:626 bytesOut:228 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:48:57 +0000] "GET /public/ HTTP/1.1" 200 8114 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:16:48:57 +0000] "GET /public/ HTTP/1.1" 200 bytesIn:746 bytesOut:8114 reqTime:7
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:49:49 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.18.0.1 - - [18/Feb/2024:16:49:49 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:54:08 +0000] "GET / HTTP/1.1" 200 933 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:16:54:08 +0000] "GET / HTTP/1.1" 200 bytesIn:425 bytesOut:933 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:54:08 +0000] "GET /icons/blank.gif HTTP/1.1" 200 431 "http://gnex.local/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:16:54:08 +0000] "GET /icons/blank.gif HTTP/1.1" 200 bytesIn:369 bytesOut:431 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:54:08 +0000] "GET /icons/text.gif HTTP/1.1" 200 513 "http://gnex.local/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:16:54:08 +0000] "GET /icons/text.gif HTTP/1.1" 200 bytesIn:367 bytesOut:513 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:54:08 +0000] "GET /icons/folder.gif HTTP/1.1" 200 508 "http://gnex.local/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:16:54:08 +0000] "GET /icons/folder.gif HTTP/1.1" 200 bytesIn:370 bytesOut:508 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:54:08 +0000] "GET /icons/unknown.gif HTTP/1.1" 200 528 "http://gnex.local/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:16:54:08 +0000] "GET /icons/unknown.gif HTTP/1.1" 200 bytesIn:371 bytesOut:528 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:54:09 +0000] "GET /favicon.ico HTTP/1.1" 404 228 "http://gnex.local/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:16:54:09 +0000] "GET /favicon.ico HTTP/1.1" 404 bytesIn:365 bytesOut:228 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:57:47 +0000] "GET / HTTP/1.1" 200 933 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:16:57:47 +0000] "GET / HTTP/1.1" 200 bytesIn:451 bytesOut:933 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:57:48 +0000] "GET / HTTP/1.1" 200 932 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:16:57:48 +0000] "GET / HTTP/1.1" 200 bytesIn:452 bytesOut:932 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:57:49 +0000] "GET / HTTP/1.1" 200 932 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:16:57:49 +0000] "GET / HTTP/1.1" 200 bytesIn:452 bytesOut:932 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:16:58:39 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.18.0.1 - - [18/Feb/2024:16:58:39 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:17:01:54 +0000] "GET / HTTP/1.1" 200 933 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:17:01:54 +0000] "GET / HTTP/1.1" 200 bytesIn:451 bytesOut:933 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:17:01:55 +0000] "GET / HTTP/1.1" 200 932 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:17:01:55 +0000] "GET / HTTP/1.1" 200 bytesIn:452 bytesOut:932 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:17:01:56 +0000] "GET / HTTP/1.1" 200 932 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:17:01:56 +0000] "GET / HTTP/1.1" 200 bytesIn:452 bytesOut:932 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:17:01:57 +0000] "GET / HTTP/1.1" 200 932 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:17:01:57 +0000] "GET / HTTP/1.1" 200 bytesIn:469 bytesOut:932 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:17:01:58 +0000] "GET /icons/blank.gif HTTP/1.1" 200 431 "http://gnex.local/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:17:01:58 +0000] "GET /icons/blank.gif HTTP/1.1" 200 bytesIn:412 bytesOut:431 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:17:01:58 +0000] "GET /icons/text.gif HTTP/1.1" 200 513 "http://gnex.local/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:17:01:58 +0000] "GET /icons/text.gif HTTP/1.1" 200 bytesIn:410 bytesOut:513 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:17:01:58 +0000] "GET /icons/unknown.gif HTTP/1.1" 200 528 "http://gnex.local/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:17:01:58 +0000] "GET /icons/unknown.gif HTTP/1.1" 200 bytesIn:414 bytesOut:528 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:17:01:58 +0000] "GET /icons/folder.gif HTTP/1.1" 200 508 "http://gnex.local/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:17:01:58 +0000] "GET /icons/folder.gif HTTP/1.1" 200 bytesIn:413 bytesOut:508 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:17:01:58 +0000] "GET /favicon.ico HTTP/1.1" 404 228 "http://gnex.local/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:17:01:58 +0000] "GET /favicon.ico HTTP/1.1" 404 bytesIn:408 bytesOut:228 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:17:01:58 +0000] "GET / HTTP/1.1" 200 932 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:17:01:58 +0000] "GET / HTTP/1.1" 200 bytesIn:469 bytesOut:932 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:17:01:58 +0000] "GET /icons/text.gif HTTP/1.1" 200 512 "http://gnex.local/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:17:01:58 +0000] "GET /icons/text.gif HTTP/1.1" 200 bytesIn:411 bytesOut:512 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:17:01:58 +0000] "GET /icons/blank.gif HTTP/1.1" 200 431 "http://gnex.local/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:17:01:58 +0000] "GET /icons/blank.gif HTTP/1.1" 200 bytesIn:412 bytesOut:431 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:17:01:58 +0000] "GET /icons/folder.gif HTTP/1.1" 200 508 "http://gnex.local/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:17:01:58 +0000] "GET /icons/folder.gif HTTP/1.1" 200 bytesIn:413 bytesOut:508 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:17:01:58 +0000] "GET /icons/unknown.gif HTTP/1.1" 200 528 "http://gnex.local/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:17:01:58 +0000] "GET /icons/unknown.gif HTTP/1.1" 200 bytesIn:414 bytesOut:528 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:17:01:58 +0000] "GET /favicon.ico HTTP/1.1" 404 228 "http://gnex.local/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:17:01:58 +0000] "GET /favicon.ico HTTP/1.1" 404 bytesIn:408 bytesOut:228 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:17:02:54 +0000] "GET /public/ HTTP/1.1" 200 8114 "http://gnex.local/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:17:02:54 +0000] "GET /public/ HTTP/1.1" 200 bytesIn:461 bytesOut:8114 reqTime:1
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:17:03:47 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.18.0.1 - - [18/Feb/2024:17:03:47 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:17:03:54 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.18.0.1 - - [18/Feb/2024:17:03:54 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:17:04:26 +0000] "GET /public/ HTTP/1.1" 200 26212 "http://gnex.local/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] gnex.local:80 - - 172.18.0.1 - - [18/Feb/2024:17:04:26 +0000] "GET /public/ HTTP/1.1" 200 bytesIn:1210 bytesOut:26212 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:17:05:18 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.18.0.1 - - [18/Feb/2024:17:05:18 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:17:06:22 +0000] "GET / HTTP/1.1" 200 940 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:17:06:22 +0000] "GET / HTTP/1.1" 200 bytesIn:1471 bytesOut:940 reqTime:0
+docker.vm:80 172.20.0.1 - - [18/Feb/2024:17:10:59 +0000] "GET /public/ HTTP/1.1" 301 566 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.20.0.1 - - [18/Feb/2024:17:10:59 +0000] "GET /public/ HTTP/1.1" 301 bytesIn:1487 bytesOut:566 reqTime:0
+docker.vm:80 172.20.0.1 - - [18/Feb/2024:17:10:59 +0000] "GET /public HTTP/1.1" 200 26421 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.20.0.1 - - [18/Feb/2024:17:10:59 +0000] "GET /public HTTP/1.1" 200 bytesIn:1487 bytesOut:26421 reqTime:0
+docker.vm:80 172.20.0.1 - - [18/Feb/2024:17:10:59 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost/public" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.20.0.1 - - [18/Feb/2024:17:10:59 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1347 bytesOut:295 reqTime:0
+docker.vm:80 172.20.0.1 - - [18/Feb/2024:17:11:01 +0000] "GET / HTTP/1.1" 200 26344 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.20.0.1 - - [18/Feb/2024:17:11:01 +0000] "GET / HTTP/1.1" 200 bytesIn:1420 bytesOut:26344 reqTime:0
+docker.vm:80 172.20.0.1 - - [18/Feb/2024:17:11:04 +0000] "GET / HTTP/1.1" 200 26365 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.20.0.1 - - [18/Feb/2024:17:11:04 +0000] "GET / HTTP/1.1" 200 bytesIn:1446 bytesOut:26365 reqTime:0
+docker.vm:80 172.20.0.1 - - [18/Feb/2024:17:11:51 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.20.0.1 - - [18/Feb/2024:17:11:51 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:23:47:20 +0000] "GET / HTTP/1.1" 200 25723 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:23:47:20 +0000] "GET / HTTP/1.1" 200 bytesIn:679 bytesOut:25723 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:23:47:20 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:23:47:20 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:575 bytesOut:295 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:23:48:13 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.18.0.1 - - [18/Feb/2024:23:48:13 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:23:48:16 +0000] "GET / HTTP/1.1" 200 25721 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+[httpd:access] localhost:80 - - 172.18.0.1 - - [18/Feb/2024:23:48:16 +0000] "GET / HTTP/1.1" 200 bytesIn:679 bytesOut:25721 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:23:49:08 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.18.0.1 - - [18/Feb/2024:23:49:08 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.18.0.1 - - [18/Feb/2024:23:55:08 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.18.0.1 - - [18/Feb/2024:23:55:08 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
